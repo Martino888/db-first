@@ -1,16 +1,16 @@
 <?php
-$db=[
+    $db=[
     [
-        'id'=> 0,
-        'immagine'=> "../img/images(1).jpg",
-        'marca'=> 'Fiat',
-        'modello'=> '500',
-        'colori'=> 'rosso',
-        'anno'=> '2019',
-        'posti'=> '5',
-        'marce'=> '6',
-        'cilindra'=> '1300cc',
-        'alimentazione'=> 'benzina',
+        'id'=> 0,//INT AUTOICREMENT NOT NULL UNIQUE KEY
+        'immagine'=> "/img/images(1).jpg",// VARCHART(255)NOT NULL
+        'marca'=> 'Fiat',// VARCHART(255) NOT NULL
+        'modello'=> '500',// VARCHART(255) NOT NULL
+        'colori'=> 'rosso', //VARCHAR(255) NOT NULL
+        'anno'=> '2019',//YEAR(YYYY)
+        'posti'=> '5',//FLOAT(I)
+        'marce'=> '6',//FLOAT(I)
+        'cilindra'=> '1300cc',//
+        'alimentazione'=> 'benzina',// VARCHART(50)
     ],
     [
         'id'=> 1,
